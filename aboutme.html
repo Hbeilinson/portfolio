@@ -17,15 +17,16 @@
     <button type="button" onclick='document.getElementById("secP").innerHTML = "I have experience developing with Python and some very limited HTML experience. Plus JavaScript!"'>This is a button!</button>
     <button type = "button" onclick="practiceFunction()">Click on this my dude</button>
     <button type = "button" onclick="question()">Let me ask</button>
+    <p>Choose a reply and we will tell you somethin</p>
+        <button type = "button" onclick= answer = "yes">Yes</button>
+        <button type = "button" onclick= answer = "no">No</button>
+    <button type = "button" onclick="practiceFunction(answer)">Click on this my dude</button>
     <script>
       function practiceFunction() {
         document.getElementById("practiceP").innerHTML = 'This appears!';
       }
-      function question() {
+      function question(answer) {
         var answer;
-        <p>Choose a reply and we will tell you somethin</p>
-        <button type = "button" onclick= answer = "yes">Yes</button>
-        <button type = "button" onclick= answer = "no">No</button>
         if(answer == "yes"){
           document.getElementById("practiceP").innerHTML = "You're an optimistic human"
          else:
